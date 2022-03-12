@@ -142,6 +142,6 @@ Access-Control-Allow-Credentials: true
 **Uso Post**
 ![ImgenGetPost](https://github.com/EstebananoT/lab5/blob/main/img/post.PNG)
 
-
+- Con el método post se oculta el path del recurso que se quiere consultar. El método get, en cambio, sí lo muestra
 **Formulario**
 ![ImgenGetPost](https://github.com/EstebananoT/lab5/blob/main/img/formulario.PNG)
