@@ -4,6 +4,19 @@
       xmlns:p="http://primefaces.org/ui">
 <h:head></h:head>
 <h:body>
-    <p:editor />
+    <h:form id="guess_form">
+        <p:outputLabel style= "display: none;" > siu </p:outputLabel>
+        <p:inputText id = "intento" type="int" binding="#{input}"/>
+        <br></br>
+        <p:outputLabel>Intentos="#{guessBean.getIntentos()}"</p:outputLabel>
+        <br></br>
+        <p:outputLabel>Estado juego ="#{guessBean.getEstado()}"</p:outputLabel>
+        <br></br>
+        <p:outputLabel>Premio acumulado="#{guessBean.getPremioAcumulado()}"</p:outputLabel>
+        <br></br>
+        <p:commandButton update="guess_form" actionListener="#{guessBean.guess(input.value)}"></p:commandButton>
+        <br></br>
+        <p:commandButton update="guess_form" actionListener="#{guessBean.restart()}"></p:commandButton>
+    </h:form>
 </h:body>
 </html>

@@ -1,6 +1,7 @@
 package edu.eci.cvds.servlet.model;
 
-import javax.enterprise.context.ApplicationScoped;
+
+import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ManagedBean;
 import java.util.ArrayList;
@@ -40,7 +41,6 @@ public class BackingBean {
     public ArrayList<Integer> getIntentos() {
         return intentos;
     }
-
     public void setIntentos(ArrayList<Integer> intentos) {
         this.intentos = intentos;
     }
