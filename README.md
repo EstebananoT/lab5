@@ -134,6 +134,7 @@ Access-Control-Allow-Credentials: true
 
 
 
+# PARTE TRES
 **Uso Get**
 ![ImgenGetPost](https://github.com/EstebananoT/lab5/blob/main/img/get.PNG)
 
